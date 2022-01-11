@@ -1,4 +1,4 @@
-/*Second-order interpolation*/
+/*Second-order-interpolation*/
 
 #include<stdio.h>
 
