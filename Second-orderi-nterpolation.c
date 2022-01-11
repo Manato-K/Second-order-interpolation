@@ -21,3 +21,14 @@ int main(void){
     printf("真値 f(%f)\n",h);
     printf("誤差 f(%f)\n",r);
 }
+/*
+input x0, f0:9.0 2.197
+input x1,f1 : 9.5 2.251
+input x : 9.2
+補間値 f(9.200000)=2.218600
+
+input x0, f0:0.2 0.98006
+input x1,f1 : 0.4 0.92106
+input x : 0.28
+補間値 f(0.280000)=0.956460
+*/
