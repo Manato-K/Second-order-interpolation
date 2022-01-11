@@ -18,4 +18,6 @@ int main(void){
     r=(X-x[0])/h;
     F=f[0][0]+r*f[1][0]+r*(r-1)*f[2][0]/2.0;
     printf("補間値 f(%f)=%f\n",X,F);
+    printf("真値 f(%f)\n",h);
+    printf("誤差 f(%f)\n",r);
 }
